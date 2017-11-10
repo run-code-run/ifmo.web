@@ -1,200 +1,84 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-
-nav {
-  max-width: 960px;
-  mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
-  margin: 0 auto;
-  padding: 60px 0;
-}
-
-nav ul {
+#container {
+  background: #DDA0DD;
   text-align: center;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  width:80%;
+  margin-left: 10%;
 }
 
-nav ul li {
-  display: inline-block;
-}
-
-nav ul li a {
-  padding: 18px;
-  text-transform:uppercase;
-  color: rgba(0, 35, 122, 0.5);
-  font-size: 18px;
-  text-decoration: none;
-  display: block;
-}
-
-nav ul li a:hover {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
-  background: rgba(255, 255, 255, 0.1);
-  color: rgba(0, 35, 122, 0.7);
-}
-
-
-
-html {
-    margin: 0;
-    padding: 0;
-}
-body {
-    font-family: 'Handlee', cursive;
-    font-size: 13pt;
-    background-color: #efefef;
-    padding: 10px;
-    margin: 0;
-}
-h1 {
-    font-size: 15pt;
-    color: #20bcd5;
-    text-align: center;
-    padding: 18px 0 18px 0;
-    margin: 0 0 10px 0;
-}
-h1 span {
-    border: 4px dashed #20bcd5;
-    padding: 10px;
-}
-p {
-    padding: 0;
-    margin: 0;
-}
-.img-circle {
-    border: 3px solid white;
-    border-radius: 50%;
-}
-.section {
-    background-color: #fff;
-    padding: 15px;
-    margin-bottom: 10px;
-    border-radius: 10px;
-}
 #header {
-    background-image: url("https://www.sololearn.com/Uploads/header.jpg");
-    background-size: cover;
+  width: 100%;
+  height: 30px;
+  background: #9370DB;
 }
-#header img {
-    display: block;
-    width: 80px;
-    height: 80px;
-    margin: auto;
+
+#block1 {
+  margin-left: 1%;
+  margin-top: 5px;
+  margin-right: 1%;
+  background: #9370DB;
+  width: 25%;
+  height: 150px;
+  float: left;
 }
-#header p {
-    font-size: 25pt;
-    color: #3b464c;
-    padding-top: 5px;
-    margin: 0;
-    font-weight: bold;
-    text-align: center;
+
+#block2 {
+  //background: white;
+  margin-left: 1%;
+  margin-top: 5px;
+  margin-right: 1%;
+  width: 70%;
+  height: 150px;
+  float: left;
 }
-.quote {
-    font-size: 12pt;
-    text-align: right;
-    margin-top: 10px;
+
+#info {
+  width: 100%;
+  height: 95px;
+  background: #9370DB;
 }
-table {
-    width: 100%;
-    font-size: 11pt;
+
+#other {
+  margin-top: 5px;
+  width: 100%;
+  height: 50px;
+  background: #9370DB;
 }
-table, th, td {
-    border: 2px solid #cecece;
-    border-collapse: collapse;
-    text-align: center;
-    table-layout: fixed;
+
+#block3 {
+  margin-top: 5px;
+  margin-left: 1%;
+  margin-right: 1%;
+  width: 25%;
+  height: 150px;
+  background: #9370DB;
+  float: left;
 }
-.selected {
-    background-color: #f36f48;
-    font-weight: bold;
-    color: white;
+#block4 {
+  margin-top: 5px;
+  margin-left: 1%;
+  margin-right: 1%;
+  width: 70%;
+  height: 300px;
+  background: #9370DB;
+  float: left;
+  
 }
-li {
-    margin-bottom: 15px;
-    font-weight: bold;
-}
-progress {
-    width: 70%;
-    height: 20px;
-    color: #3fb6b2;
-    background: #efefef;
-}
-progress::-webkit-progress-bar {
-    background: #efefef;
-}
-progress::-webkit-progress-value {
-    background: #3fb6b2;
-} 
-progress::-moz-progress-bar {
-    color: #3fb6b2;
-    background: #efefef;
-}
-iframe, audio {
-    display: block;
-    margin: 0 auto;
-    border: 3px solid #3fb6b2;
-}
-hr {
-    border: 0;
-    height: 1px;
-    background: #f36f48;
-}
-form {
-    text-align: center;
-    margin-top: 0;
-}
-.submit {
-    background-color: #3fb6b2;
-    padding: 12px 45px;
-    border-radius: 5px;
-    cursor: pointer;
-    color: #ffffff;
-    border: none;
-    outline: none;
-    margin: 0;
-    font-weight: bold;
-}
-.submit:hover {
-    background-color: #43a09d;
-}
-textarea {
-    height: 100px;
-}
-input, textarea {
-    margin-bottom: 10px;
-    font-size: 11pt;
-    padding: 15px 10px 10px;
-    border: 1px solid #cecece;
-    background-color: #efefef;
-    color: #787575;
-    border-radius: 5px;
-    width: 70%;
-    outline: none;
-}
-.face {
-    transform: scale(0.4);
-    margin: 0 auto;
-    display: block;
-    margin-top: -35px;
-    margin-bottom: -25px;
-}
-#contacts img {
-    height: 50px;
-    width: 50px;
-    margin-left: 7px;
-    margin-right: 7px;
-}
-#contacts a {
-    text-decoration: none;
-}
-#contacts img:hover {
-    opacity: 0.8;
-}
-#contacts {
-    text-align: center;
-}
-.copyright {
-    font-size: 8pt;
-    text-align: right;
-    padding-bottom: 10px;
-    color: grey;
+@media all and (max-width: 430px)
+{
+  #block1{
+    width: 100%
+  }
+    #block2{
+    width: 100%
+  }
+    #block3{
+    width: 100%
+  }
+    #block4{
+    width: 100%
+  }
+  #container{
+    margin-left: 0%;
+    width:100%;
+  }
 }
