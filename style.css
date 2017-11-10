@@ -63,7 +63,7 @@
   float: left;
   
 }
-@media all and (max-width: 430px)
+@media screen and (max-width: 430px)
 {
   #block1{
     width: 100%
