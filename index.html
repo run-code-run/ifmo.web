@@ -1,10 +1,6 @@
 <html>
 
 <head>
-<script src="https://unpkg.com/marked@0.3.6"></script>
-<script src="https://unpkg.com/lodash@4.16.0"></script>
-<script src="https://cdn.jsdelivr.net/npm/vue"></script>
-
  <link href="style.css" rel="stylesheet">
 </head>
   
@@ -13,6 +9,8 @@
   <textarea :value="input" @input="update"></textarea>
   <div v-html="compiledMarkdown"></div>
 </div>
+   <script src="https://unpkg.com/marked@0.3.6"></script>
+<script src="https://unpkg.com/lodash@4.16.0"></script>
    <script src="https://unpkg.com/vue"></script>
    <script>
    new Vue({
